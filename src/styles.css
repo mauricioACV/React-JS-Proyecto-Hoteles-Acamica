@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* **************HEADER*************** */
+.header-hoteles {
+  box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(12, 53, 99) 51%,
+    rgb(19, 78, 145) 100%
+  );
+  color: #fff;
+  height: 200px;
+  padding: 20px 80px;
+  width: 100%;
+}
+
+.header-text-title {
+  font-weight: bold;
+  font-size: 35px;
+  padding: 10px 0px;
+}
+
+.header-text-filterInfo {
+  padding: 0.5px 0px;
+}
+
+.alerta {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* **************NAVBAR*************** */
+.custom-input {
+  width: 180px;
+  padding: 8px;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.05);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.outline-none:focus {
+  outline: none;
+}
+
+.placeHolder-Icon::placeholder {
+  background-image: url("./imgs/png/calendar2.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  /* background-position: 1rem center; */
+}
+
+.no-border :focus {
+  border: none;
+}
+
+.nav-hoteles {
+  background-color: #189e8865;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+}
+
+.reset-filtros-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 2px solid rgb(19, 78, 145);
+  /* background-color: rgb(114, 163, 219); */
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.15);
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 8px;
+}
+
+.cleanFilter-icon {
+  margin-right: 4px;
+  width: 15px;
+}
+
+.errorFecha-icon {
+  width: 18px;
+}
+
+.noResultados-icon {
+  width: 100px;
+}
+
+/* ******************ESTILOS GLOBALES CARD HOTEL************** */
+.mBottom-7p {
+  margin-bottom: 7px;
+}
+
+.padding-3 {
+  padding: 3px;
+}
+
+.padding-50 {
+  padding: 50px;
+}
+
+.padding-right5 {
+  padding-right: 5px;
+}
+
+.mLeft-7p {
+  margin-left: 7px;
+}
+
+.fSize-12 {
+  font-size: 12px;
+}
+
+.width30 {
+  width: 30px;
+}
+
+.dFlex-ItemCenter {
+  display: flex;
+  align-items: center;
+}
+
+.dFlex-Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sombra-radius {
+  box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 3px 3px 0px;
+}
+
+.box-rango-fecha {
+  background-color: rgb(62, 111, 167);
+  border-radius: 3px;
+  color: #fff;
+  padding: 10px 10px 10px 9px;
+  margin: 5px 0px;
+}
+
+/* ******************CARD HOTEL************** */
+.card-hotel {
+  margin: 20px;
+  box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.15);
+  border: 1px solid #aa05b60c;
+  border-radius: 3px;
+  padding: 12px;
+  min-width: 360px;
+  max-width: 360px;
+}
+
+.card-hotel-img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card-hotel-titulo {
+  border-bottom: 1px solid #aa05b64d;
+  color: #59145e;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card-hotel-textoDescripcion {
+  font-size: 15px;
+  max-height: 90px;
+  min-height: 90px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.customIcon {
+  background-color: #189e88;
+  border-radius: 3px 0px 0px 3px;
+  padding: 5px;
+}
+
+.detalles-text-valor {
+  color: #fff;
+  background-color: #189e88;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 7px 10px;
+}
+
+.card-hotel-btnReservar {
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(55, 105, 172);
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-hotel-btnReservar:hover {
+  background-color: rgb(30, 71, 124);
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+/* ******************ESTILO SCROLL DESCRIPCIÓN HOTEL************** */
+.card-hotel-textoDescripcion::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.card-hotel-textoDescripcion::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.card-hotel-textoDescripcion::-webkit-scrollbar-button:increment,
+.card-hotel-textoDescripcion::-webkit-scrollbar-button {
+  display: none;
+}
+
+.card-hotel-textoDescripcion::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.card-hotel-textoDescripcion::-webkit-scrollbar-thumb {
+  background-color: #59145e8e;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.card-hotel-textoDescripcion::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* ******************CONTAINER RESULTADOS************** */
+.center {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-resultados {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
