@@ -39,8 +39,8 @@ Se crea dentro de carpeta "src" una subcarpeta llamada "imgs", que contiene subc
 
 ## CodeSanbox del Proyecto
 
-Puedes revisar el código de esta app y modificarlo online [haciendo click aquí](https://codesandbox.io/s/proyecto-hotel-react-4th5k){:target="_blank" rel="noopener"}.
+Puedes revisar el código de esta app y modificarlo online [haciendo click aquí](https://codesandbox.io/s/proyecto-hotel-react-4th5k).
 
 ### Enlace del Proyecto
 
-Puedes utilizar la app en el siguiente enlace: [https://4th5k.csb.app/](https://4th5k.csb.app/){:target="_blank" rel="noopener"}.
+Puedes utilizar la app en el siguiente enlace: [https://4th5k.csb.app/](https://4th5k.csb.app/).
