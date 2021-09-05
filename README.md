@@ -6,6 +6,10 @@ Proyecto React JS. Desarrollado para la entrega del sprint N°2 curso Desarrollo
 
 Para el desarrollo se consideraron los detalles siguientes:
 
+### `Hook useState`
+
+Se utilizó el hook useState para el manejo de estado de los filtros de la app. Bajo el concepto del "prop drilling" que se refiere al proceso de obtener datos en partes del árbol de componentes react, y así, llevar el estado y el manejador del useState a los lugares correctos de nuestra app.
+
 ### `Componentes`
 
 Se crea dentro de carpeta "src" una subcarpeta llamada "components" para alojar los distintos componentes de la app.
