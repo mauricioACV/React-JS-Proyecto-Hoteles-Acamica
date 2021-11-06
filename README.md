@@ -14,11 +14,11 @@ Se utilizó el hook useState para el manejo de estado de los filtros de la app. 
 
 Se crea dentro de carpeta "src" una subcarpeta llamada "components" para alojar los distintos componentes de la app.
 
--FiltrosNav: Componente que renderiza una barra nav con las distintas opciones de filtrado.  
--Header: Componente que renderiza el header de la página, y que además muestra al usuario, en lenguaje natural, las opciones de filtrado seleccionadas.  
--Hotel: Componente "card" para mostrar la información correspndiente a un Hotel.
--Resultados: Componente que renderiza los resultados de hoteles según las opciones seleccionadas.  
--Main: Componente que instancia los componentes anteriormente descritos para construir la app completa. Este componente es el que finalmente se instancia en app.js  
+- FiltrosNav: Componente que renderiza una barra nav con las distintas opciones de filtrado.  
+- Header: Componente que renderiza el header de la página, y que además muestra al usuario, en lenguaje natural, las opciones de filtrado seleccionadas.  
+- Hotel: Componente "card" para mostrar la información correspndiente a un Hotel.
+- Resultados: Componente que renderiza los resultados de hoteles según las opciones seleccionadas.  
+- Main: Componente que instancia los componentes anteriormente descritos para construir la app completa. Este componente es el que finalmente se instancia en app.js  
 
 ### `Data`
 
