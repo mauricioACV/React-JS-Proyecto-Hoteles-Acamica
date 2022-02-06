@@ -1,0 +1,23 @@
+@media screen and (max-width: 690px) {
+    .header-hoteles {
+      height: 200px;
+      padding: 20px 20px;
+    }
+  
+    .nav-hoteles {
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: space-between;
+      padding: 10px 35px;
+    }
+  
+    .custom-input {
+      margin: 5px;
+      width: 145px;
+    }
+  
+    .dFlex-Center p {
+      font-size: 14px;
+    }
+  }
+  
