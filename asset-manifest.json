@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/React-JS-Proyecto-Hoteles-Acamica/static/css/main.f8f5fba9.chunk.css",
+    "main.js": "/React-JS-Proyecto-Hoteles-Acamica/static/js/main.4c2e1339.chunk.js",
+    "main.js.map": "/React-JS-Proyecto-Hoteles-Acamica/static/js/main.4c2e1339.chunk.js.map",
+    "runtime-main.js": "/React-JS-Proyecto-Hoteles-Acamica/static/js/runtime-main.81b51c39.js",
+    "runtime-main.js.map": "/React-JS-Proyecto-Hoteles-Acamica/static/js/runtime-main.81b51c39.js.map",
+    "static/js/2.46a1d55a.chunk.js": "/React-JS-Proyecto-Hoteles-Acamica/static/js/2.46a1d55a.chunk.js",
+    "static/js/2.46a1d55a.chunk.js.map": "/React-JS-Proyecto-Hoteles-Acamica/static/js/2.46a1d55a.chunk.js.map",
+    "index.html": "/React-JS-Proyecto-Hoteles-Acamica/index.html",
+    "static/css/main.f8f5fba9.chunk.css.map": "/React-JS-Proyecto-Hoteles-Acamica/static/css/main.f8f5fba9.chunk.css.map",
+    "static/js/2.46a1d55a.chunk.js.LICENSE.txt": "/React-JS-Proyecto-Hoteles-Acamica/static/js/2.46a1d55a.chunk.js.LICENSE.txt",
+    "static/media/alto-atacama.a6846d24.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/alto-atacama.a6846d24.jpg",
+    "static/media/azur-real.9a591fc1.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/azur-real.9a591fc1.jpg",
+    "static/media/bed.378dd653.svg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/bed.378dd653.svg",
+    "static/media/campo-tinto.f27bca75.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/campo-tinto.f27bca75.jpg",
+    "static/media/casa-higueras.0c6c7433.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/casa-higueras.0c6c7433.jpg",
+    "static/media/casa-turquesa.8e9179ce.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/casa-turquesa.8e9179ce.jpg",
+    "static/media/cleanFilter.98df0c38.svg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/cleanFilter.98df0c38.svg",
+    "static/media/entre-cielos.671c5a26.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/entre-cielos.671c5a26.jpg",
+    "static/media/error.16719765.svg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/error.16719765.svg",
+    "static/media/extraviado.f9828f0a.svg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/extraviado.f9828f0a.svg",
+    "static/media/huacalera.7542bc14.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/huacalera.7542bc14.jpg",
+    "static/media/la-bamba-de-areco.0ccacda0.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/la-bamba-de-areco.0ccacda0.jpg",
+    "static/media/location.f9828f0a.svg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/location.f9828f0a.svg",
+    "static/media/luma-casa-de-montana.0501710d.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/luma-casa-de-montana.0501710d.jpg",
+    "static/media/merced-del-alto.3daaee16.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/merced-del-alto.3daaee16.jpg",
+    "static/media/ponta-dos-ganchos.8ebdf1b2.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/ponta-dos-ganchos.8ebdf1b2.jpg",
+    "static/media/rincon-del-socorro.98161c62.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/rincon-del-socorro.98161c62.jpg",
+    "static/media/sainte-jeanne.4ff84aba.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/sainte-jeanne.4ff84aba.jpg",
+    "static/media/tierra-patagonia.aad2b011.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/tierra-patagonia.aad2b011.jpg",
+    "static/media/uxua-casa.ebf46cc5.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/uxua-casa.ebf46cc5.jpg",
+    "static/media/vik-chile.341113d7.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/vik-chile.341113d7.jpg",
+    "static/media/vila-da-santa.a64e91d2.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/vila-da-santa.a64e91d2.jpg",
+    "static/media/vira-vira.17468e7f.jpg": "/React-JS-Proyecto-Hoteles-Acamica/static/media/vira-vira.17468e7f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81b51c39.js",
+    "static/js/2.46a1d55a.chunk.js",
+    "static/css/main.f8f5fba9.chunk.css",
+    "static/js/main.4c2e1339.chunk.js"
+  ]
+}
